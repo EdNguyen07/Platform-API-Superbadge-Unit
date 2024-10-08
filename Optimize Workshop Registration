@@ -1,0 +1,21 @@
+{
+"records" :[{
+    "attributes" : {"type" : "Contact", "referenceId" : "ref1"},
+    "Firstname" : "SampleContact13",
+    "Lastname" : "SampleContact13lastname",
+    "Opportunities" : {
+        "records" : [{
+            "attributes" : {"type" : "Opportunity", "referenceId" : "ref2"},
+            "Name" : "Advanced Training1",
+            "CloseDate" : "2025-10-23T18:25:43.511Z",
+            "StageName" : "Prospecting"
+
+
+
+        }]
+
+    }
+   
+   
+  }]
+}
