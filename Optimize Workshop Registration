@@ -1,18 +1,40 @@
 {
 "records" :[{
     "attributes" : {"type" : "Contact", "referenceId" : "ref1"},
-    "Firstname" : "SampleContact13",
-    "Lastname" : "SampleContact13lastname",
+    "Firstname" : "Emily",
+    "Lastname" : "Cloudshine",
     "Opportunities" : {
         "records" : [{
             "attributes" : {"type" : "Opportunity", "referenceId" : "ref2"},
-            "Name" : "Advanced Training1",
+            "Name" : "Advanced Training",
             "CloseDate" : "2025-10-23T18:25:43.511Z",
-            "StageName" : "Prospecting"
-
-
-
+            "StageName" : "Prospecting",
+            "tasks" : {
+                "records" : [{
+                    "attributes" : {"type" : "Task", "referenceId" : "ref3"},
+                    "Subject" : "Advanced Training11"
+                    
+                }]
+            }
         }]
+
+    },
+    "Tasks" : {
+         "records" : [{
+            "attributes" : {"type" : "Task", "referenceId" : "ref4"},
+            "Subject" : "Learning Resources",
+            "Priority" : "Normal"
+
+         }]
+    },
+    "Cases" : {
+         "records" : [{
+            "attributes" : {"type" : "Case", "referenceId" : "ref5"},
+            "Subject" : "Class Survey",
+            "Priority" : "Low",
+            "Status" : "New"
+
+         }]
 
     }
    
