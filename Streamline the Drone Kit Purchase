@@ -1,0 +1,50 @@
+{
+"records" :[{
+    "attributes" : {"type" : "Account", "referenceId" : "ref1"},
+    "Name" : "Maverick",
+    "Contacts" : {
+        "records" : [{
+            "attributes" : {"type" : "Contact", "referenceId" : "ref2"},
+             "Firstname" : "Olivia",
+             "Lastname" : "Cloudwalker"
+
+        }]
+
+    },
+    "Opportunities" : {
+        "records" : [{
+            "attributes" : {"type" : "Opportunity", "referenceId" : "ref7"},
+            "Name" : "Range Extenders",
+            "CloseDate" : "2025-10-23T18:25:43.511Z",
+            "StageName" : "Prospecting"
+            
+        }]
+
+    },
+    
+    "Cases" : {
+         "records" : [{
+            "attributes" : {"type" : "Case", "referenceId" : "ref5"},
+            "Subject" : "Lightning Registration",
+            "Priority" : "High",
+            "Status" : "New",
+            "Origin" : "Web",
+            "Reason" : "Installation"
+
+         }]
+
+    },
+    "Contracts" : {
+        "records" : [{
+            "attributes" : {"type" : "Contract", "referenceId" : "ref6"},
+            "Name" : "SkyCheck",
+            "StartDate" : "2025-10-23T18:25:43.511Z",
+            "ContractTerm" : "12"
+            
+
+        }]
+    }
+   
+   
+  }]
+}
