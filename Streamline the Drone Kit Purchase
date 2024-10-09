@@ -6,7 +6,19 @@
         "records" : [{
             "attributes" : {"type" : "Contact", "referenceId" : "ref2"},
              "Firstname" : "Olivia",
-             "Lastname" : "Cloudwalker"
+             "Lastname" : "Cloudwalker",
+              "Cases" : {
+         "records" : [{
+            "attributes" : {"type" : "Case", "referenceId" : "ref15"},
+            "Subject" : "Lightning Registration",
+            "Priority" : "High",
+            "Status" : "New",
+            "Origin" : "Web",
+            "Reason" : "Installation"
+
+         }]
+
+    }
 
         }]
 
